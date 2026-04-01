@@ -16,6 +16,8 @@ alias ngc='sudo nix-collect-garbage -d --delete-older-than 10d'
 alias lff=$'lf -command \'set hidden true\'' 
 alias fastfetch='fastfetch --logo-type small --logo arch'
 alias e='exit'
+alias apienv='cd ~/Documents/Dev/CarDB/CarDB_Api && source ~/Documents/Dev/CarDB/CarDB_Api/.venv/bin/activate'
+alias appenv='cd ~/Documents/Dev/CarDB/CarDB_App && npm run dev'
 
 fastfetch
 PS1='\w > '

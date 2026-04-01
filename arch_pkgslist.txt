@@ -1,5 +1,5 @@
-brave-browser
-prismlauncher-bin
+brave-bin
+prismlauncher
 vesktop
 ghostty
 lf
@@ -9,5 +9,5 @@ btop
 chezmoi
 tmux
 winboat-bin
-google-chrome
 telegram-desktop
+noctalia-shell
