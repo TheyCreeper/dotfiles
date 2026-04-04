@@ -150,6 +150,7 @@
                     "maxWidth": 145,
                     "scrollingMode": "hover",
                     "showIcon": true,
+                    "showText": true,
                     "textColor": "none",
                     "useFixedWidth": false
                 },
@@ -229,9 +230,48 @@
                     "useDistroLogo": false
                 },
                 {
+                    "commandPrefix": "music-search",
+                    "defaultSettings": {
+                        "autoSaveMp3AfterPlayback": false,
+                        "defaultPanelLibrarySection": "tracks",
+                        "defaultPanelTab": "search",
+                        "panelDensity": "balanced",
+                        "previewMetadataMode": "always",
+                        "previewPaneWidth": 0,
+                        "previewThumbnailSize": "comfortable",
+                        "showAlbumMetadata": true,
+                        "showBarHoverTrackTitle": true,
+                        "showDurationMetadata": true,
+                        "showHomeArtists": true,
+                        "showHomePlaylists": true,
+                        "showHomeRecent": true,
+                        "showHomeTags": true,
+                        "showHomeTop": true,
+                        "showPanelHeader": true,
+                        "showPanelNowPlaying": true,
+                        "showPanelPlaybackProgress": true,
+                        "showPanelPreview": true,
+                        "showPanelProviderChips": true,
+                        "showPanelQueueControls": true,
+                        "showPanelRecentTracks": true,
+                        "showPanelSearchHelper": true,
+                        "showPanelSpeedControls": true,
+                        "showPanelStatusBanner": true,
+                        "showPanelUrlActions": true,
+                        "showPlayStatsMetadata": true,
+                        "showPreviewChips": true,
+                        "showRatingMetadata": true,
+                        "showStatusMetadata": true,
+                        "showTagMetadata": true,
+                        "showUploaderMetadata": true,
+                        "ytPlayerClient": "android"
+                    },
                     "id": "plugin:music-search"
                 },
                 {
+                    "defaultSettings": {
+                        "mode": "region"
+                    },
                     "id": "plugin:screenshot"
                 },
                 {
@@ -273,8 +313,9 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "ADW",
+        "predefinedScheme": "Ayu",
         "schedulingMode": "off",
+        "syncGsettings": true,
         "useWallpaperColors": false
     },
     "controlCenter": {
@@ -490,6 +531,7 @@
         "showHibernateOnLockScreen": false,
         "showScreenCorners": false,
         "showSessionButtonsOnLockScreen": true,
+        "smoothScrollEnabled": true,
         "telemetryEnabled": false
     },
     "hooks": {
@@ -520,10 +562,11 @@
     },
     "location": {
         "analogClockInCalendar": false,
+        "autoLocate": true,
         "firstDayOfWeek": -1,
         "hideWeatherCityName": false,
         "hideWeatherTimezone": false,
-        "name": "Saguenay",
+        "name": "Chicoutimi",
         "showCalendarEvents": true,
         "showCalendarWeather": true,
         "showWeekNumberInCalendar": false,
@@ -533,7 +576,6 @@
         "weatherShowEffects": true
     },
     "network": {
-        "airplaneModeEnabled": false,
         "bluetoothAutoConnect": true,
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
@@ -751,6 +793,7 @@
         "fillColor": "#000000",
         "fillMode": "crop",
         "hideWallpaperFilenames": false,
+        "linkLightAndDarkWallpapers": true,
         "monitorDirectories": [
             {
                 "directory": "/home/theycreeper/Pictures/Wallpapers",

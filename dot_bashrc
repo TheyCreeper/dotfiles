@@ -21,3 +21,8 @@ alias appenv='cd ~/Documents/Dev/CarDB/CarDB_App && npm run dev'
 
 fastfetch
 PS1='\w > '
+
+. "$HOME/.atuin/bin/env"
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash)"
