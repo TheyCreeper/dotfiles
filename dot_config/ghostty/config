@@ -62,4 +62,5 @@ font-size = 12
 window-decoration = true
 mouse-hide-while-typing = true
 window-padding-x = 5
-window-padding-y = 5
+window-padding-y = 5theme = noctalia
+theme = noctalia
