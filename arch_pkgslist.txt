@@ -1,13 +1,15 @@
 brave-bin
 prismlauncher
 vesktop
-ghostty
+foot
 lf
 fastfetch
 micro
+visual-studio-code-bin
 btop
 chezmoi
 tmux
-winboat-bin
 telegram-desktop
 noctalia-shell
+mangowm-git
+xdg-desktop-portal
