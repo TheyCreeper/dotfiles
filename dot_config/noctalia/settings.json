@@ -22,7 +22,8 @@
             "code",
             "org.gnome.Nautilus",
             "org.prismlauncher.PrismLauncher",
-            "gparted"
+            "gparted",
+            "LookingGlass"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
@@ -474,7 +475,7 @@
         "deadOpacity": 0.6,
         "displayMode": "auto_hide",
         "dockType": "floating",
-        "enabled": true,
+        "enabled": false,
         "floatingRatio": 1,
         "groupApps": false,
         "groupClickAction": "cycle",
@@ -821,7 +822,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "/home/theycreeper/Pictures/Wallpapers",
+        "directory": "/home/theycreeper/Documents",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
@@ -848,10 +849,10 @@
         "panelPosition": "follow_bar",
         "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": false,
+        "showHiddenFiles": true,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
-        "sortOrder": "name",
+        "sortOrder": "name_desc",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": [
@@ -861,10 +862,10 @@
             "pixelate",
             "honeycomb"
         ],
-        "useOriginalImages": false,
+        "useOriginalImages": true,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "single",
+        "viewMode": "browse",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
