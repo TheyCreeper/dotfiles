@@ -14,16 +14,16 @@
         "enableSessionSearch": true,
         "enableSettingsSearch": true,
         "enableWindowsSearch": true,
-        "iconMode": "tabler",
+        "iconMode": "native",
         "ignoreMouseInput": false,
         "overviewLayer": true,
         "pinnedApps": [
             "brave-cinhimbnkkaeohfgghhklpknlkffjgod-Default",
             "code",
-            "org.gnome.Nautilus",
             "org.prismlauncher.PrismLauncher",
             "gparted",
-            "LookingGlass"
+            "LookingGlass",
+            "org.gnome.Nautilus"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",

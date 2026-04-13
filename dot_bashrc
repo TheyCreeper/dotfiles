@@ -19,6 +19,11 @@ alias fastfetch='fastfetch --logo-type small --logo arch'
 alias e='exit'
 alias apienv='cd ~/Documents/Dev/cardb/CarDB_Api && source ~/Documents/Dev/cardb/CarDB_Api/.venv/bin/activate'
 alias appenv='cd ~/Documents/Dev/cardb/CarDB_App && npm run dev'
+alias vm='sudo virsh start win11' 
+
+sha256() {
+    printf '%s %s\n' "$1" "$2" | sha256sum --check
+}
 
 fastfetch
 PS1='\w > '
