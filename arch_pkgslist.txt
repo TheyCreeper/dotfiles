@@ -1,7 +1,7 @@
-brave-bin
+brave-origin-beta-bin
 prismlauncher
 vesktop
-foot
+alacritty
 lf
 fastfetch
 micro
@@ -10,6 +10,4 @@ btop
 chezmoi
 tmux
 telegram-desktop
-noctalia-shell
-mangowm-git
-xdg-desktop-portal
+konsave
