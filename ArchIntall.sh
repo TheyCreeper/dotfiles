@@ -1,6 +1,7 @@
 # Install wanted arch packages
 yay -Syu --needed --noconfirm - < arch_pkgslist.txt
 
-# Install gnome settings
-./dot_config/gnome/install.sh
+chsh -s /usr/bin/fish
+konsave -i theme.knsv
+konsave -a theme.knsv
 

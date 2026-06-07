@@ -10,4 +10,6 @@ btop
 chezmoi
 tmux
 telegram-desktop
+google-chrome
+fish
 konsave
