@@ -13,3 +13,6 @@ telegram-desktop
 google-chrome
 fish
 konsave
+docker
+docker-compose
+winboat-bin
