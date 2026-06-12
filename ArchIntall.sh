@@ -1,5 +1,5 @@
 # Install wanted arch packages
-yay -Syu --needed --noconfirm - < arch_pkgslist.txt
+sudo pacman -S --needed --noconfirm - < package_list.txt
 
 chsh -s /usr/bin/fish
 konsave -i theme.knsv
