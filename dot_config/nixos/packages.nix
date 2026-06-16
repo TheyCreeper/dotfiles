@@ -30,7 +30,7 @@
   users.extraUsers.creeper = {
     shell = pkgs.fish;
   };
-  
+
   # Install firefox.
   programs.firefox.enable = true;
   programs.steam.enable = true;
@@ -39,7 +39,6 @@
   environment.systemPackages = with pkgs; [
      vscode
      brave
-     hello
      git
      prismlauncher
      alacritty
@@ -55,6 +54,5 @@
      winboat
 	   micro
      steam
-     chromium
   ];
 }
