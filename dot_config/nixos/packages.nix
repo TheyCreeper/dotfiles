@@ -31,6 +31,11 @@
     shell = pkgs.fish;
   };
 
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = with pkgs; [
+    fuse
+  ];
+
   # Install firefox.
   programs.firefox.enable = true;
   programs.steam.enable = true;
@@ -54,5 +59,14 @@
      winboat
 	   micro
      steam
+     devbox
+     distrobox
+     dotnet-sdk_10
+     dotnet-sdk_8
+     nodejs
+     pear-desktop
+     lunar-client
+     google-chrome
+     telegram-desktop
   ];
 }
