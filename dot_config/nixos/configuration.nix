@@ -66,7 +66,7 @@
   # env-variables
   environment.sessionVariables = {
       DOTNET_ROOT = "${pkgs.dotnet-sdk_10}/share/dotnet";
-      LD_LIBRARY_PATH = "${pkgs.icu}/lib:${pkgs.openssl}/lib:${config.environment.sessionVariables.LD_LIBRARY_PATH}";
+      LD_LIBRARY_PATH = "${pkgs.icu}/lib:${pkgs.openssl}/lib";
     };
 
   fileSystems."/mnt/Alpha" = {

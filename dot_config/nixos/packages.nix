@@ -69,5 +69,6 @@
      telegram-desktop
      direnv
      icu
+     appimage-run
   ];
 }
