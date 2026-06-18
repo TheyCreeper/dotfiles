@@ -61,11 +61,13 @@
      steam
      devbox
      distrobox
-     dotnet-sdk
+     dotnet-sdk_10
      nodejs
      pear-desktop
      lunar-client
      google-chrome
      telegram-desktop
+     direnv
+     icu
   ];
 }
