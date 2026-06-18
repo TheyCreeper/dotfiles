@@ -61,8 +61,7 @@
      steam
      devbox
      distrobox
-     dotnet-sdk_10
-     dotnet-sdk_8
+     dotnet-sdk
      nodejs
      pear-desktop
      lunar-client
