@@ -36,6 +36,8 @@
     fuse
   ];
 
+  services.flatpak.enable = true;
+
   # Install firefox.
   programs.firefox.enable = true;
   programs.steam.enable = true;
@@ -70,5 +72,6 @@
      direnv
      icu
      appimage-run
+     vlc
   ];
 }
